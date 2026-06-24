@@ -1,16 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <title>Hannah Stone</title>
-</head>
-<body>
-  <h1>Hannah Stone</h1>
-  <p>PhD student interested in visual neuroscience, brain stimulation, and artificial vision.</p>
+  <head>
+    <meta charset="utf-8">
+    <title>Hannah Stone</title>
+    <meta name="description" content="Personal website for Hannah Stone, PhD student in Psychology and Brain Sciences at UC Santa Barbara.">
+    <meta name="author" content="Hannah Stone">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-  <h2>Research</h2>
-  <p>I study visual perception, phosphenes, and neural responses to stimulation.</p>
+    <!-- Optional favicon. Remove this line if you do not have favicon.png -->
+    <link rel="icon" type="image/png" href="favicon.png">
+  
+    <!-- Stylesheets -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
-  <h2>Contact</h2>
-  <p>Email: hstone@ucsb.edu</p>
-</body>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>    
+  </head>
+  
+  <body>
+
+    <header id="header">
+      <!-- Remove this if you do not have logo.png -->
+      <!-- <img src="logo.png" alt="Logo"> -->
+
+      <h1>Hannah Stone</h1>
+      <p>PhD Student | Psychology and Brain Sciences | UC Santa Barbara</p>
+      
+      <ul class="main-menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#research">research</a></li>
+        <li><a href="#cv">cv</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>                 
+    </header>
+   
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="home" class="content-region hide">
+            <h2>Home</h2>
+            <p>
+              I am a PhD student in Psychology and Brain Sciences at UC Santa Barbara. 
+              My research interests include visual neuroscience, artificial vision, cortical visual prostheses, 
+              brain stimulation, and computational models of visual perception.
+            </p>
+          </div>
+          
+          <div id="research" class="content-region hide">
+            <h2>Research</h2>
+            <p>
+              I am interested in how visual percepts can be generated, measured, and modeled through neural stimulation.
+              My current work focuses on phosphene perception, TMS, EEG, and computational models of early visual cortex.
+            </p>
+
+            <h3>Research interests</h3>
+            <ul>
+              <li>Visual neuroscience</li>
+              <li>Cortical visual prostheses</li>
+              <li>TMS-evoked phosphenes</li>
+              <li>Artificial vision and brain-computer interfaces</li>
+              <li>Computational models of V1</li>
+            </ul>
+          </div>
+          
+          <div id="cv" class="content-region hide">
+            <h2>CV</h2>
+            <p>
+              You can add a link to your CV here once you upload it to the repository.
+            </p>
+            <p>
+              <a href="Hannah_Stone_CV.pdf">Download my CV</a>
+            </p>
+          </div>
+
+          <div id="contact" class="content-region hide">
+            <h2>Contact</h2>
+            <p>
+              Email: hstone@ucsb.edu
+            </p>
+            <p>
+              GitHub: <a href="https://github.com/hstone5">yourusername</a>
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <footer>  
+      <p>&copy; 2026 Hannah Stone</p>
+    </footer>
+    
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
 </html>
