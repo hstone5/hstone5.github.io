@@ -115,6 +115,25 @@ a:focus {
   padding-left: 22px;
 }
 
+.publication {
+  align-items: center;
+  border-top: 1px solid #ded9cf;
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  padding-top: 16px;
+}
+
+.publication img {
+  border: 1px solid #d8d2c8;
+  border-radius: 4px;
+  display: block;
+  height: auto;
+  max-height: 96px;
+  max-width: 150px;
+  width: auto;
+}
+
 .cv-viewer {
   border: 1px solid #cfc8bc;
   border-radius: 6px;
@@ -177,5 +196,16 @@ footer p {
 
   .main-menu a {
     padding: 7px 11px;
+  }
+
+  .publication {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .publication img {
+    height: auto;
+    max-width: 220px;
+    width: 100%;
   }
 }
