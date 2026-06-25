@@ -35,6 +35,10 @@ a:focus {
   max-width: 720px;
 }
 
+.header-subtitle {
+  line-height: 1.45;
+}
+
 .profile-photo {
   border: 4px solid rgba(255, 255, 255, 0.85);
   border-radius: 50%;
@@ -111,6 +115,26 @@ a:focus {
   padding-left: 22px;
 }
 
+.cv-viewer {
+  border: 1px solid #cfc8bc;
+  border-radius: 6px;
+  height: 520px;
+  margin-top: 14px;
+  overflow: hidden;
+}
+
+.cv-viewer iframe {
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.cv-fallback {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
 footer {
   color: #5b5b5b;
   padding: 24px;
@@ -141,6 +165,10 @@ footer p {
 
   #content {
     padding: 24px 20px;
+  }
+
+  .cv-viewer {
+    height: 430px;
   }
 
   .main-menu {
